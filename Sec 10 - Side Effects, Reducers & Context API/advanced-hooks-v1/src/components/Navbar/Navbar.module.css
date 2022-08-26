@@ -1,0 +1,33 @@
+.navigation {
+  display: flex;
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.navbarItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+.navbarLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  display: flex;
+  padding: 0 20px 0 40px;
+}
+
+li {
+  list-style-type: none;
+  padding: 0 4px;
+}
